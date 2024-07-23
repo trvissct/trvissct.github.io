@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find and Replace Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find and Replace Tool</h1>
+        <div class="form-container">
+            <label for="inputText">Input Text:</label>
+            <textarea id="inputText" placeholder="Enter your text here"></textarea>
+            <div class="input-group">
+                <input type="text" id="findInput" placeholder="Find">
+                <input type="text" id="replaceInput" placeholder="Replace with">
+                <button id="replaceButton">Replace</button>
+            </div>
+        </div>
+        <div class="count" id="countDisplay"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
